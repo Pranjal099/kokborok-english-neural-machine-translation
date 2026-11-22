@@ -1,0 +1,31 @@
+# Core Deep Learning Framework
+torch>=2.0.0
+
+# Hugging Face Ecosystem
+transformers>=4.35.0
+datasets>=2.14.0
+evaluate>=0.4.0
+accelerate>=0.24.0
+
+# Tokenization
+sentencepiece>=0.1.99
+
+# Evaluation Metrics
+sacrebleu>=2.3.0
+portalocker>=2.8.2
+nltk>=3.8.1
+rouge-score>=0.1.2
+
+# Data Processing & Analysis
+pandas>=2.0.0
+numpy>=1.24.0
+requests>=2.31.0
+tqdm>=4.66.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# Optional Corpus Scraping & OCR Extraction
+easyocr>=1.7.0
+selenium>=4.15.0
+webdriver-manager>=4.0.0
