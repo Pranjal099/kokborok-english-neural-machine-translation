@@ -1,0 +1,117 @@
+# ==============================================================================
+# Security and Dataset Protection (Strictly Enforced)
+# ==============================================================================
+# The Kokborok-English parallel corpus and raw/processed linguistic datasets
+# are proprietary research assets and must NEVER be committed to version control.
+
+# Datasets and Corpus Files
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.zip
+*.tar
+*.gz
+*.bz2
+
+# Text and Corpus Data (Preserve requirements.txt)
+*.txt
+!requirements.txt
+!CITATION.cff
+
+# Raw and Processed Split Files
+*.eng
+*.kok
+*.tok.eng
+*.tok.kok
+
+# JSON Corpus and Raw Dumps
+*.json
+!CITATION.cff
+
+# Scanned Book Documents and Manual OCR Transcriptions
+LearnKokborok.pdf
+manual_trans/
+
+# Tokenizer Binary and Vocabulary Artifacts
+*.model
+*.vocab
+
+# Model Weights, Large Binaries, and Checkpoints
+*.bin
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.h5
+test_file.bin
+checkpoints/
+model_checkpoints/
+m2m100_finetuned/
+m2m100_final/
+kokborok_m2m_finetuned_*/
+runs/
+wandb/
+
+# Python Cache and Environments
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+
+# Jupyter Notebook Checkpoints and Cache
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# macOS and Operating System Artifacts
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE Configurations and Scratch Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+tempCodeRunnerFile.py
+*.tmp
+*.temp
+*.log
+
+# Unrelated and Scratch Utilities
+progress.txt
+python bible_scraper.py
+a.csv
+add.py
+addd.py
+sum.py
+auto.py
+newauto.py
+sahilautoo.py
