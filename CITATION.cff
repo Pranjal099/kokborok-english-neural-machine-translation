@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this research codebase or reference our work in your research, please cite our published paper as below."
+title: "Developing Neural Machine Translation Tool: Kokborok–English, a Step Toward Preserving Indigenous Languages"
+authors:
+  - family-names: "Das"
+    given-names: "Sanchali"
+  - family-names: "Gautam"
+    given-names: "Pranjal"
+    email: "pranjalofficial32@gmail.com"
+  - family-names: "Sarkar"
+    given-names: "Mainak"
+preferred-citation:
+  type: chapter
+  title: "Developing Neural Machine Translation Tool: Kokborok–English, a Step Toward Preserving Indigenous Languages"
+  authors:
+    - family-names: "Das"
+      given-names: "Sanchali"
+    - family-names: "Gautam"
+      given-names: "Pranjal"
+    - family-names: "Sarkar"
+      given-names: "Mainak"
+  collection-title: "Sustainable Developments in Computer Engineering, Green Technology and Smart Systems"
+  publisher:
+    name: "CRC Press"
+  year: 2026
+  month: 7
+  start: 767
+  end: 775
+  doi: "10.1201/9781003743767-121"
+  url: "https://www.taylorfrancis.com/chapters/edit/10.1201/9781003743767-121/developing-neural-machine-translation-tool-kokborok-english-step-toward-preserving-indigenous-languages-sanchali-das-pranjal-mainak-sarkar"
+repository-code: "https://github.com/Pranjal099/kokborok-english-neural-machine-translation"
+keywords:
+  - "neural machine translation"
+  - "kokborok"
+  - "indigenous language preservation"
+  - "low-resource nmt"
+  - "multilingual transfer learning"
+  - "m2m100"
+  - "transformers"
